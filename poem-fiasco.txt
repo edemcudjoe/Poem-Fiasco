@@ -1,0 +1,10 @@
+$ git checkout HEAD road-not-taken.txt
+$ git checkout -- oven-bird.txt 
+$ git diff fire-and-ice.txt
+$ git add road-not-taken.txt oven-bird.txt fire-and-ice.txt 
+$ git reset HEAD fire-and-ice.txt 
+$ git commit -m 'add ending lines'
+$ git add .
+$ git commit -m 'add popular rhymes to poem'
+$ git reset d990f84
+$ git checkout HEAD road-not-taken.txt oven-bird.txt fire-and-ice.txt
